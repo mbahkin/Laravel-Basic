@@ -23,7 +23,7 @@ route::get('/siswa/{id}', function($id) {
     return "hello word ". $id;
 });
 
-route::get('/guru/{id?}', function($id=null) {
+route::get('/karyawan/{id?}', function($id=null) {
     return 'hello guru '.$id;
 });
 
