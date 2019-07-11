@@ -42,3 +42,11 @@ route::get('/admin', function() {
 route::get('/admin/{id}', function($id) {
     return "hello admin ". $id;
 });
+
+route::get('/master', function () {
+    return view('guru.index');
+});
+
+route::get('/app', function () {
+    return view('petugas.index');
+});
